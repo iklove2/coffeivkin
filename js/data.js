@@ -1,38 +1,62 @@
 const dataJson = `[
   { 
-    "img" : "img/product1.jpg",
-    "title" : "ellery x m'o capsule",
-    "text" : "Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.",
+    "img" : "img/page27/kc-1.webp",
+    "title" : "kc-1",
+    "text" : "3D Coffee Keychain Set",
     "price" : 52
   },
   { 
-    "img" : "img/product2.png",
-    "title" : "ellery x m'o capsule",
-    "text" : "Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.",
-    "price" : 61
+    "img" : "img/page27/kc-2.webp",
+    "title" : "kc-2",
+    "text" : "3D Coffee Keychain Set",
+    "price" : 24
   },
   { 
-    "img" : "img/product3.png",
-    "title" : "ellery x m'o capsule",
-    "text" : "Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.",
-    "price" : 34
+    "img" : "img/page27/kc-3.webp",
+    "title" : "kc-3",
+    "text" : "3D Coffee Keychain Set",
+    "price" : 35
   },
   { 
-    "img" : "img/product4.png",
-    "title" : "ellery x m'o capsule",
-    "text" : "Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.",
-    "price" : 83
+    "img" : "img/page27/kc-4.webp",
+    "title" : "kc-4",
+    "text" : "3D Coffee Keychain Set",
+    "price" : 78
   },
   { 
-    "img" : "img/product5.png",
-    "title" : "ellery x m'o capsule",
-    "text" : "Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.",
-    "price" : 96
+    "img" : "img/page27/kc-5.webp",
+    "title" : "kc-5",
+    "text" : "3D Coffee Keychain Set",
+    "price" : 21
   },
   { 
-    "img" : "img/product6.png",
-    "title" : "ellery x m'o capsule",
-    "text" : "Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.",
-    "price" : 25
+    "img" : "img/page27/kc-6.webp",
+    "title" : "kc-6",
+    "text" : "3D Coffee Keychain Set",
+    "price" : 76
+  },
+  { 
+    "img" : "img/page27/kc-7.webp",
+    "title" : "kc-7",
+    "text" : "3D Coffee Keychain Set",
+    "price" : 54
+  },  
+  { 
+    "img" : "img/page27/kc-8.webp",
+    "title" : "kc-8",
+    "text" : "3D Coffee Keychain Set",
+    "price" : 21
+  },
+  { 
+    "img" : "img/page27/kc-9.webp",
+    "title" : "kc-9",
+    "text" : "3D Coffee Keychain Set",
+    "price" : 76
+  },
+  { 
+    "img" : "img/page27/kc-10.webp",
+    "title" : "kc-10",
+    "text" : "3D Coffee Keychain Set",
+    "price" : 54
   }
 ]`
