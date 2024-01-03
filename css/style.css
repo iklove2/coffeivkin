@@ -257,7 +257,7 @@ li {
     display: grid;
     justify-content: center;
     grid-template-columns: repeat(2, 540px);
-    gap: 30px;
+    gap: 8px;
     position: relative;
     margin-bottom: 96px;
 }
@@ -280,6 +280,17 @@ li {
     right: 0;
     bottom: 0;
     background-color: rgba(33, 22, 22, .8);
+    z-index: 1;
+}
+
+.shop_menu_item:hover::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(33, 22, 22, .4);
     z-index: 1;
 }
 
@@ -855,7 +866,7 @@ footer {
 
     .shop_menu {
         grid-template-columns: repeat(2, 360px);
-        gap: 18px;
+        gap: 8px;
     }
 
     .shop_menu_item {
@@ -884,7 +895,6 @@ footer {
 
     .shop_menu {
         grid-template-columns: repeat(2, 360px);
-        gap: 18px;
     }
 
     .shop_menu_item {
@@ -953,16 +963,15 @@ footer {
 
     .shop_menu {
         display: block;
-        gap: 32px;
         position: relative;
-        margin-bottom: 110px;
+        margin-bottom: 55px;
         flex-wrap: wrap;
     }
 
     .shop_menu_item {
         margin-left: auto;
         margin-right: auto;
-        margin-bottom: 32px;
+        margin-bottom: 4px;
         width: 360px;
         min-height: 92px;
     }
@@ -1133,34 +1142,15 @@ footer {
 
     .shop_menu {
         display: block;
-        gap: 32px;
         position: relative;
-        margin-bottom: 110px;
+        margin-bottom: 55px;
         flex-wrap: wrap;
     }
 
-    .shop_menu_men {
-        margin-bottom: 32px;
-        width: 343px;
-        min-height: 247px;
-    }
-
-    .shop_menu_women {
-        margin-bottom: 32px;
-        width: 343px;
-        min-height: 247px;
-    }
-
-    .shop_menu_kids {
-        margin-bottom: 32px;
-        width: 343px;
-        min-height: 247px;
-    }
-
-    .shop_menu_accessories {
-        width: 343px;
-        min-height: 111px;
-        background-size: cover;
+    .shop_menu_item {
+        margin-bottom: 2px;
+        max-width: 343px;
+        min-height: 92px;
     }
 
     .shop_content {
